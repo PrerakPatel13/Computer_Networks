@@ -1,4 +1,3 @@
-//code galat hai resolve kar raha hun
 #include<stdio.h>
  
 void main()
@@ -48,7 +47,7 @@ void main()
     c1=rec[6]^rec[4]^rec[2]^rec[0];
     c2=rec[5]^rec[4]^rec[1]^rec[0];
     c3=rec[3]^rec[2]^rec[1]^rec[0];
-    c=c3*4+c2*2+c1;
+    c=c3*4+c2*2+c1 ;
     if(c==0) 
     {
         printf("\nNo error while transmission of data\n");
@@ -103,4 +102,4 @@ void main()
     }
     }   
     }
-}
+ }
