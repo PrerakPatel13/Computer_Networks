@@ -1,3 +1,4 @@
+//code galat hai resolve kar raha hun
 #include<stdio.h>
  
 void main()
